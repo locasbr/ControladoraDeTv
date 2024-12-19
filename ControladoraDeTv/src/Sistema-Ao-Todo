@@ -1,0 +1,69 @@
+ Meotors na interface 
+
+Ligar()
+Desligar()
+Abrir menu()
+FecharMenu()
+MaisVolume()
+Menosvolume()
+LigarMudo()
+DesligarMudo()
+Play()
+Pause()
+
+
+Atributos da Classe
+
+Classe ControleRemoto
+Atributos: 
+Private inteiro Volume
+Private boolean Ligado
+Private boolean Tocando
+
+Quando você encapsula, você tem que colocar todos os atributos privados
+
+Após isso, eu coloco todos os métodos abstratos, pois vou implementar a interface então é obrigatório.
+
+Após isso eu tenho que colocar os métodos especiais como getter e setter.
+[15:40, 11/12/2024] Lucas: Continuação da classe
+
+Método construtor()
+volume = 50;
+Ligado = falso
+
+Defina os getters e setters
+
+Metodos abstratos vindo da interface:
+
+Eu vou colocar no método ligar()
+O metedo setLigado(true)
+E no metodo desligar o contrário 
+
+Metodo abrir menu()
+Nesse método nós vamos colocar as informações do  nosso menu
+Sysout.out.println(getLigado)
+Sysout.out.println(getVolume) - escreve o valor do volume
+For(int i = 0; i<getVolume; i+10){
+Sysout.out.println("|" )
+}
+Coloque o get de tocando também 
+
+Após isso
+
+Metodo fecharmenu(
+System.out.println("Fechando o menu")
+
+Após isso, colocar o método maisVolume
+If se tiver com a tv ligsda
+SetVolume(getVolume()+1)
+
+Chamar o método menosVoume 
+
+Ligarmudo
+Se tiver ligado e getVolume tiver acima de zero
+
+Chamar o método desligarMudo e defino o meu setVolume para 50
+
+Metodo play: só vai fucionar se ele estiver ligado e não tiver tocando 
+
+E o método pause ao contrário
